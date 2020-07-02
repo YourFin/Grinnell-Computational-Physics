@@ -9,7 +9,7 @@ def spherical3d(R, THETA, PHI):
     fig = plt.figure(figsize=plt.figaspect(1)*4)  # Square figure
     ax = fig.add_subplot(111, projection='3d')
 
-    ax.plot_surface(X, Y, Z)
+    ax.plot_wireframe(X, Y, Z)
     return fig
 
 def cylindrical3d(S, PHI, Z):
