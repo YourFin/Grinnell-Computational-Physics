@@ -1,2 +1,4 @@
 env/
 ignore/
+**/.ipynb_checkpoints
+**/__pycache__
